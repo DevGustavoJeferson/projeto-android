@@ -1,2 +1,52 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Orbitron:wght@400..900&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url(../assets/fontes/idroid.otf) format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    /*Paleta de cores*/
+    --cor01: #18B84D;
+    --cor02: #2C8549;
+    --cor03: #2B5238;
+    --cor04: #26332A;
+    --cor05: black;
+    --cor06: white;
+
+    /*Fontes do projeto*/
+    --fontePadrao: Verdana , Geneva , Tahoma , sans-serif;
+    --fonteTitulo: 'Android', serif;
+    --fonteDestaque: "Orbitron", sans-serif;
+}
+
+header {
+    background-color: var(--cor03);
+}
+
+header > h1{
+    font-family: var(--fonteDestaque);
+    color: var(--cor06);
+}
+
+header > p {
+    font-family: var(--fontePadrao);
+}
+
+header > nav {
+    background-color: var(--cor04);
+}
+
+header > nav > ul > li {
+    display: inline-block;
+}
+
+header > nav > ul > li > a {
+    color: var(--cor06);
+}
