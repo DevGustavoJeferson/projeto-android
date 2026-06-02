@@ -11,6 +11,14 @@
     padding: 0px;
 }
 
+body {
+    background-color: grey;
+
+    max-width: 800px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
 :root {
     /*Paleta de cores*/
     --cor01: #18B84D;
@@ -49,4 +57,26 @@ header > nav > ul > li {
 
 header > nav > ul > li > a {
     color: var(--cor06);
+}
+
+main {
+    background-color: white;
+}
+
+article > h1 {
+    font-family: var(--fonteTitulo);
+}
+
+article > picture > img {
+    width: 100%;
+    margin: auto;
+}
+
+article > img {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    font-family: var(--fonteTitulo);
 }
