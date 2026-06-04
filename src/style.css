@@ -73,8 +73,8 @@ header > nav > ul > li > a {
     text-decoration: none;
 }
 
-header > nav > ul > li > a::before {
-    content: "◆ ";
+header > nav > ul > li > a::after {
+    content: " /";
 }
 
 header > nav > ul > li > a:hover {
