@@ -113,7 +113,8 @@ article > h2 {
 }
 
 
-main > article > p {
+main > article > p,
+aside > p {
     font-size: 1.1em;
     line-height: 1.3em;
 }
@@ -163,23 +164,63 @@ article > img {
     margin: auto;
 }
 
+aside {
+    border: 1px solid var(--cor05);
+    border-radius: 10px;
+
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+aside > h2 {
+    background-color: var(--cor04);
+    color: var(--cor06);
+
+    margin: -10px ;
+    padding: 5px 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > p {
+    text-indent: 10px;
+    color: var(--cor05);
+
+    margin-top: 10px;
+    margin-bottom: 5px
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
 footer {
     background-image: linear-gradient(to top, var(--cor02), var(--cor04));
-    color: var(--cor01);
+    color: var(--cor06);
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    font-family: var(--fonteDestaque);
 
     margin-top: 10px;
     padding: 20px;
+
 }
 
-footer > strong > a,
-footer > strong {
+footer > strong > a {
     color: var(--cor06);
     text-decoration: none;
-    font-family: var(--fonteDestaque);
+    border: 1px solid var(--cor06);
+    border-radius: 5px;
+    background-color: var(--cor05);
+
+    padding: 0px 5px;
+
+    transition: 0.5s;
 }
 
 footer > strong > a:hover {
     text-decoration: underline;
+    color: var(--cor05);
+    border: 2px solid var(--cor05);
+    background-color: var(--cor06);
 }
