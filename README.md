@@ -10,10 +10,10 @@ O objetivo do projeto foi criar uma página web responsiva utilizando os fundame
 
 ## 🌱 Planejamento futuro
 
-- [] Refatorar - deixando o código mais limpo
-- [] Adicionar mais comentarios explicativos
-- [] Melhorar a adaptabilidade para o mobile
-- [] Adicionar diferentes temas de cores
+- [ ] Refatorar - deixando o código mais limpo
+- [ ] Adicionar mais comentarios explicativos
+- [ ] Melhorar a adaptabilidade para o mobile
+- [ ] Adicionar diferentes temas de cores
 
 ---
 
